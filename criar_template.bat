@@ -8,6 +8,9 @@ REM Criar o diretório do projeto
 md %project_name%
 cd %project_name%
 
+REM Inicializar o Git
+git init
+
 REM Criar a solution
 dotnet new sln -n %project_name%
 
